@@ -5,16 +5,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - TesteBruno.Web</title>
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 
 <body>
-    <header style="background-color: red;">Menu</header>
+    <header class="uk-text-danger">Menu</header>
     <main>
         @RenderBody()
     </main>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+    <script src="~/dist/home.entry.js" asp-append-version="true"></script>
 </body>
 
 </html>
