@@ -48,11 +48,11 @@ module.exports = {
         alias: {
             'jquery-ui-css': 'jquery-ui-dist/jquery-ui.min.css',
             'jquery-ui': 'jquery-ui-dist/jquery-ui',
+            'uikit-css': 'uikit/dist/css/uikit.min.css',
             '@assets': path.resolve(__dirname, 'src/assets'),
             'components': path.resolve(__dirname, 'src/components'),
             'helpers': path.resolve(__dirname, 'src/helpers'),
-            'styles': path.resolve(__dirname, 'src/styles'),
-            'uikit-css': 'uikit/dist/css/uikit.min.css'
+            'styles': path.resolve(__dirname, 'src/styles')
         }
     },
     output: {
